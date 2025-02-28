@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basics.css">
+</head>
+<body>
+    <div class="card">
+    <form action="" id="form">
+        <h1>Survay</h1>
+
+    <div>
+        <label for="name">Enter your name</label><br>
+        <input type="name" name="name" placeholder="name" id="name" required>
+    </div>
+    <div>
+        <label for="subject">Chose your gender</label><br>
+        <input type="radio" name="gender" value="a" id="a" required>
+        <label for="a">Male<br>
+        <input type="radio" name="gender" value="b" id="b" required>
+        <label for="b">Female</label><br>
+        <input type="radio" name="gender" value="c" id="c" required>
+        <label for="c">Others</label>
+    </div>
+
+    <div>
+        <label for="subject">Chose your favourite streming platform</label><br>
+        <select name="series" id="series" required>
+            <option value="Disney">Disney</option>
+            <option value="Netflix">Netflix</option>
+            <option value="Max">Max</option>
+            <option value="Prime Video">Prime Video</option>
+            <option value="You Tube Music">You Tube Music</option>
+            <option value="Hulu">Hulu</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="subject">Enter your favourite series</label><br>
+        <input type="text" name="text" placeholder="write series name" id="series" required>
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    </div>
+</body>
+</html>

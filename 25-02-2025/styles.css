@@ -1,0 +1,130 @@
+.b{
+    border-radius: 0.375rem;
+    outline: none;
+    border: none;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: background-color 0.3s,
+                border 0.3s;
+}
+
+.b-primary{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.b-primary:hover{
+    background-color: #1a66d8;
+}
+
+.b-secondary{
+    background-color: #63757d;
+    color: #fff;
+}
+
+.b-secondary:hover{
+    background-color: #59666b;
+}
+
+.b-success{
+    background-color: #198754;
+    color: #fff;
+}
+
+.b-success:hover{
+    background-color: #127446;
+}
+
+.b-danger{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.b-danger:hover{
+    background-color: #b72332;
+}
+
+.b-warning{
+    background-color: #ffc107;
+    color: #000;
+}
+
+.b-warning:hover{
+    background-color: #ffc720;
+}
+
+.b-info{
+    background-color: #0dcaf0;
+    color: #000;
+}
+
+.b-info:hover{
+    background-color: #1ad5fb;
+}
+
+.b-primary1{
+    border: #0d6efd solid 1px;
+    background: transparent;
+    color: #0d6efd;
+}
+
+.b-primary1:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.b-secondary1{
+    border: #63757d solid 1px;
+    background: transparent;
+    color: #63757d;
+}
+
+.b-secondary1:hover{
+    background-color: #63757d;
+    color: #fff;
+}
+
+.b-success1{
+    border: #198754 solid 1px;
+    background: transparent;
+    color: #198754;
+}
+
+.b-success1:hover{
+    background-color: #198754;
+    color: #fff;
+}
+
+.b-danger1{
+    border: #dc3545 solid 1px;
+    background: transparent;
+    color: #dc3545;
+}
+
+.b-danger1:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.b-warning1{
+    border: #ffc107 solid 1px;
+    background: transparent;
+    color: #ffc107;
+}
+
+.b-warning1:hover{
+    background-color: #ffc107;
+    color: #000;
+}
+
+.b-info1{
+    border: #0dcaf0 solid 1px;
+    background: transparent;
+    color: #0dcaf0;
+}
+
+.b-info1:hover{
+    background-color: #0dcaf0;
+    color: #000;
+}

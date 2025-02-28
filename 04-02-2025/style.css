@@ -1,0 +1,9 @@
+.img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+body{
+    padding: 20px;
+    font-family: Georgia ;
+}
