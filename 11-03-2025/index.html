@@ -1,0 +1,21 @@
+<!-- Make an interactive button with JS to change the HTML of a page
+[Hint: use document.getElementById(" ").innerHTML= to change the HTML]
+after that try document.getElementById(" ").innerText= and find the difference between the two. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeHTML()">Button</button>
+    <div id="changeable"></div>
+    <script>
+        function changeHTML(){
+            document.getElementById("changeable").innerText= "<h1>Hello World</h1>"
+        }
+    </script>
+</body>
+</html>

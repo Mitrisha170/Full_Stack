@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number</h1>
+            <button id="minus">-</button>
+            <h1 id="number">0</h1>
+            <button id="plus">+</button>
+    </div>
+    <script>
+        let minusbutton=document.getElementById("minus")
+        let plusbutton=document.getElementById("plus")
+        let numberbox=document.getElementById("number")
+        let num=1;
+        minusbutton.addEventListener("click",()=>{
+            num -= 1;
+            numberbox.innerText = num
+        });
+        plusbutton.addEventListener("click",()=>{
+            num += 1;
+            numberbox.innerText = num
+        });
+    </script>
+</body>
+</html>
